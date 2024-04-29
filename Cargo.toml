@@ -1,0 +1,11 @@
+[package]
+name = "close_foreground_window"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+toy-arms = "0.9.4"
+winsafe = { version = "0.0.20", features = ['kernel', 'user'] }
+winapi = { version = "0.3", features = ["utilapiset"] }
